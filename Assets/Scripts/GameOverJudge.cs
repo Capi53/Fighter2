@@ -10,7 +10,7 @@ public class GameOverJudge : MonoBehaviour
         // Debug.Log("Clash3");
      
         if(collision.gameObject.name=="Terrain"){
-     Debug.Log("Clash");
+            Debug.Log("Clash");
             SceneManager.LoadScene("GameOverScene");
             //音楽つける、リトライボタンを追加する。->ゲーム(スタート)画面に飛ぶ
             

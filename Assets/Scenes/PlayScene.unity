@@ -134,9 +134,69 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100002, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
       propertyPath: m_Name
       value: AircraftJet
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100044, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100052, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100054, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100056, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100074, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100076, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
+      propertyPath: m_TagString
+      value: Palyer
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 147d826ca4c5a834a9dfe5db390c47f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -209,7 +269,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98463739}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0367bd1fa44049d593265ff6cdd7557, type: 3}
   m_Name: 
@@ -396,7 +456,7 @@ GameObject:
   - component: {fileID: 446136402}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

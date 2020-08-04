@@ -5,21 +5,17 @@ using UnityEngine.SceneManagement;
  
 public class OnTriggerBall : MonoBehaviour {
  
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider collider)
     {
-
-        if(other.CompareTag("Player")){
-            Debug.Log("aaaaaaaaa");
-            Destroy(gameObject);
-        }
-    }
-    private GameObject[] enemyObjects;
-
-	void Update () {
-
-		enemyObjects = GameObject.FindGameObjectsWithTag("Coin");
-		if(enemyObjects.Length == 0){
+		Debug.Log("yeah");
+		Debug.Log(collider.gameObject);
+	    if(collider.gameObject.CompareTag("Coin")){
+	        Destroy(collider.gameObject);
+	    }
+	    GameObject[] coinObjects;
+	    coinObjects = GameObject.FindGameObjectsWithTag("Coin");
+		if(coinObjects.Length -1 == 0){
 			SceneManager.LoadScene("GameClear");
 		}
-	}
+    }
 }
