@@ -202,6 +202,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 483c2077d261742cdaec7836cf1fbcfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &98463749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98463739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0367bd1fa44049d593265ff6cdd7557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &118673923
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +393,7 @@ GameObject:
   - component: {fileID: 446136400}
   - component: {fileID: 446136399}
   - component: {fileID: 446136398}
+  - component: {fileID: 446136402}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -399,7 +412,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &446136399
 MeshRenderer:
@@ -457,11 +470,23 @@ Transform:
   m_GameObject: {fileID: 446136397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.6, y: 209, z: 20.4}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &446136402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446136397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0367bd1fa44049d593265ff6cdd7557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &821669332
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,6 +499,7 @@ GameObject:
   - component: {fileID: 821669335}
   - component: {fileID: 821669334}
   - component: {fileID: 821669333}
+  - component: {fileID: 821669337}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Coin
@@ -492,7 +518,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &821669334
 MeshRenderer:
@@ -550,11 +576,23 @@ Transform:
   m_GameObject: {fileID: 821669332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.6, y: 199.3, z: 327.6}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &821669337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821669332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0367bd1fa44049d593265ff6cdd7557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1634086049
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +694,7 @@ GameObject:
   - component: {fileID: 1657203274}
   - component: {fileID: 1657203273}
   - component: {fileID: 1657203272}
+  - component: {fileID: 1657203276}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Coin
@@ -674,7 +713,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1657203273
 MeshRenderer:
@@ -732,11 +771,23 @@ Transform:
   m_GameObject: {fileID: 1657203271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.6, y: 220.4, z: -16}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657203276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657203271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0367bd1fa44049d593265ff6cdd7557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1944316770
 PrefabInstance:
   m_ObjectHideFlags: 0
